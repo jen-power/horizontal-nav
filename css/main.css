@@ -16,11 +16,15 @@ h1 {
   text-align: center;
 }
 
-div {
+header {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
   width: 100%;
+}
+
+body {
+
 }
 
 a {
@@ -46,3 +50,5 @@ li {
 nav {
   text-align: center;
 }
+
+header nav:last-of-type a:not(.current)
