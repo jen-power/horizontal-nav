@@ -51,4 +51,6 @@ nav {
   text-align: center;
 }
 
-header nav:last-of-type a:not(.current)
+header nav:last-of-type {
+  a:not(.current)
+}
