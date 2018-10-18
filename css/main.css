@@ -12,13 +12,8 @@ html {
 h1 {
   display: block;
   font-family: Bevan, serif;
-  margin: 0em;
-  padding-top: .3em;
   text-align: center;
-}
-
-header {
-  margin: 0em;
+  margin: .3em;
 }
 
 body {
@@ -60,7 +55,7 @@ nav {
 }
 
 .planets {
-  margin-top: 0em;
   margin-bottom: .3em;
+  margin-top: .3em;
   padding-bottom: .5em;
 }
