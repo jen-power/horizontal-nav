@@ -12,8 +12,6 @@ html {
 h1 {
   display: block;
   font-family: Bevan, serif;
-  margin-top: 0em;
-  margin-bottom: 0em;
   padding-top: .3em;
   text-align: center;
 }
@@ -22,7 +20,7 @@ body {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  margin: 0.3em;
+  margin: .3em;
   width: 100%;
 }
 
