@@ -12,7 +12,9 @@ html {
 h1 {
   display: block;
   font-family: Bevan, serif;
-  margin: .3em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: .3em;
   text-align: center;
 }
 
@@ -21,18 +23,23 @@ body {
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
   margin: 0px;
-  padding: 0px
+  padding: 0em;
   width: 100%;
 }
 
 a {
-  display: inline-block;
+  display: block;
   background-color: #713837;
   border-radius: 5px;
   color: #fff;
   padding: .6em;
   list-style-type: none;
   text-decoration: none;
+}
+
+a:last-of-type {
+  display: inline-block;
+  margin-top: .3em;
 }
 
 a:hover {
@@ -42,9 +49,16 @@ a:hover {
 
 li {
   display: inline;
-  font-family: Arial, serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 nav {
   text-align: center;
+}
+
+.planets {
+  margin-top: 0em;
+  margin-bottom: .3em;
+  padding-bottom: .5em;
 }
