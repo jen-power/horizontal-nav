@@ -16,14 +16,12 @@ h1 {
   text-align: center;
 }
 
-header {
-  width: 100%;
-}
-
 body {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
+  margin: 0px;
+  padding: 0px
   width: 100%;
 }
 
