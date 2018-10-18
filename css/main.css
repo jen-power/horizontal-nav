@@ -17,14 +17,14 @@ h1 {
 }
 
 header {
-  background-color: #79756f;
-  border-top: 3px solid #595652;
-  border-bottom: 3px solid #595652;
   width: 100%;
 }
 
 body {
-
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  width: 100%;
 }
 
 a {
